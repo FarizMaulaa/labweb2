@@ -1,0 +1,53 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  color: blue;
+  text-align: center;
+}
+nav {
+  background: #20a759;
+  color: #fff;
+  padding: 10px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav .active,
+nav a:hover {
+  background: #0b6b3a;
+}
+.container {
+  background: #418fb1;
+  padding: 10px;
+  color: white;
+}
+.container h1 {
+  padding-left: 15px;
+}
+.container button {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+.container button:hover {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 1;
+  border-radius: 6px;s
+}
